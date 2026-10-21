@@ -1,6 +1,6 @@
-# Lancia THESIS workshop manual (text version)
+# Lancia Thesis workshop manual (text version)
 
-> Official eLearn workshop manual for the Lancia THESIS, English. Engines: 2.0 TB, 2.4  20V, 3.0 V6, 3.2 V6, 2.4 JTD 10V, 2.4 JTD 20V. Production periods: T.T.. Each topic is a separate HTML page with its path, applicability, and links to and from related topics.
+> Official eLearn workshop manual for the Lancia Thesis, English. Engines: 2.0 TB, 2.4  20V, 3.0 V6, 3.2 V6, 2.4 JTD 10V, 2.4 JTD 20V. Production periods: T.T.. Each topic is a separate HTML page with its path, applicability, and links to and from related topics.
 
 Start with the guide, then follow links. Use the lookups to jump from a component, fuse or operation code to its pages.
 
