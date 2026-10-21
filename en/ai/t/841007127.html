@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E4010 INSTRUMENT PANEL OPERATIONAL DESCRIPTION · Lancia THESIS</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.4  20V, 3.0 V6, 3.2 V6; all production periods; only with equipment: Automatic Transmission. Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E40 INSTRUMENT PANEL &gt; E4010 INSTRUMENT PANEL &gt; E4010 INSTRUMENT PANEL OPERATIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Lancia THESIS workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2003.html">Electrical equipment</a> › <a href="841003069.html">ELECTRICAL FUNCTIONS</a> › <a href="841004788.html">E40 INSTRUMENT PANEL</a> › <a href="841007109.html">E4010 INSTRUMENT PANEL</a> › <span>E4010 INSTRUMENT PANEL OPERATIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E4010</span> INSTRUMENT PANEL OPERATIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E40 INSTRUMENT PANEL &gt; E4010 INSTRUMENT PANEL &gt; E4010 INSTRUMENT PANEL OPERATIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.4  20V, 3.0 V6, 3.2 V6; all production periods; only with equipment: Automatic Transmission</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-lThss/en/#/841007127">https://sloeber94.github.io/elrnDB-lThss/en/#/841007127</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.4  20V, 3.0 V6, 3.2 V6; all production periods; only with equipment: Automatic Transmission</p><h2>Operational Description</h2><p>The instrument panel E050 supply is from the line controlled by the ignition (INT), protected by fuse F37 of the junction unit under the dashboard B002, at pin 1 of connector A; the direct supply (+30 battery) arrives at pin 2 of connector A via the line protected by fuse F53 inside the actual junction unit B002.</p><p>The instrument panel E050 is connected from pins 3 and 4 of connector A to the Body Computer M001 (pins 5 and 6 of connector E) and to all the devices in the CAN (B-CAN and C-CAN): it is therefore possible to exchange information and display the symbols, messages and faults described previously.</p><p>The speedometer signal, supplied by the braking system control unit M051 (pin 16), reaches pin 7 of connector A of the Body Computer M001, which, via the B-CAN, transmits it to the instrument panel E050 for the display of the vehicle speed by the speedometer; the engine management control unit M010 receives the signal from the rpm sensor K046 (pins 10 and 59 of connector B) and transmits it via the C-CAN (pins 45 and 61 of connector A) allowing the rev counter inside the instrument panel to display the figure; the engine coolant temperature sensor K045 transmits its own signal to the engine management control unit M010 (pins 25 and 26 of connector B), which transmits it via the C-CAN allowing the temperature gauge inside the instrument panel to display the exact figure and, any possible overheating through the warning light; the signal used to show the fuel level and possible reserve in the instrument panel E050 is supplied by the sensor inside the fuel pump assembly N040 to the Body Computer M001 (pins 4 and 15 of connector F).</p><p>The automatic transmission control unit M055, supplied by the line controlled by the ignition (INT) protected by fuse F51 of the junction unit under the dashboard B002 and by the line from the battery (+30) protected by fuse F64 of the luggage compartment junction unit B045, receives the automatic transmission overheating signal from the solenoid valve unit L050 (pins 3 and 6 of connector C) at pins 21 and 22 of connector B and transmits it via the C-CAN from pins 12 and 13 of connector A, likewise transmitting the possible failure of the automatic transmission to display the messages on the instrument panel E050 display.</p><p>The brake fluid level sensor K025 is connected to the Body Computer M001 at pin 18 of connector A, whilst the left wheel brake pad sensor K020 and the right sensor K021 are connected to pin 23 of connector B.</p><p>The engine oil level sensor K032 is connected directly to the instrument panel E050 (pins 17 and 18 of connector B) which shows the level via the display.</p><p>The insufficient engine oil pressure sensor K030 is connected to the engine management control unit M010 at pin 60 of connector A.</p><p>The luggage compartment control unit M063, supplied by the line from the battery protected by fuse F61 of the luggage compartment junction unit B045 (pin 6 of connector C) receives the signal that the inertia switch I050 is on at pin 33 of connector F and transmits it from pins 30 and 40 via the B-CAN.</p><p>The Body Computer M001 is interfaced through the B-CAN with the info-telematic control unit M065 from pins 5 and 7 of connector H.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-lThss/en/">https://sloeber94.github.io/elrnDB-lThss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

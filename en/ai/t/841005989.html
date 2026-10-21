@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7050 AUTOMATIC TRANSMISSION OPERATIONAL DESCRIPTION · Lancia THESIS</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.4  20V, 3.0 V6, 3.2 V6, 2.4 JTD 20V; all production periods. Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7050 AUTOMATIC TRANSMISSION &gt; E7050 AUTOMATIC TRANSMISSION OPERATIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Lancia THESIS workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2003.html">Electrical equipment</a> › <a href="841003069.html">ELECTRICAL FUNCTIONS</a> › <a href="841005397.html">E70 VEHICLE ELECTRONIC SYSTEMS</a> › <a href="841005971.html">E7050 AUTOMATIC TRANSMISSION</a> › <span>E7050 AUTOMATIC TRANSMISSION OPERATIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E7050</span> AUTOMATIC TRANSMISSION OPERATIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7050 AUTOMATIC TRANSMISSION &gt; E7050 AUTOMATIC TRANSMISSION OPERATIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.4  20V, 3.0 V6, 3.2 V6, 2.4 JTD 20V; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-lThss/en/#/841005989">https://sloeber94.github.io/elrnDB-lThss/en/#/841005989</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.4  20V, 3.0 V6, 3.2 V6, 2.4 JTD 20V; all production periods</p><h2>Operational Description</h2><p>The automatic transmission control unit M055 controls and regulates the entire gearbox management system.</p><p>The direct supply (+30) for the control unit arrives, via the line protected by fuse F64 of the luggage compartment junction unit B045, at pin 7 of connector B.</p><p>The supplies controlled by the ignition (INT) reach pin 10 of connector A through the line protected by fuse F37 of the junction unit under the dashboard B002 and pins 18 and 19 of connector B as for the automatic transmission gear selector control unit M053 (pin 1) via the line protected by fuse F51 of junction unit B002.</p><p>The automatic transmission control unit does not allow the vehicle to be started up if a gear is engaged through the ignition switch solenoid L057 conected to the actual control unit at pin 1 of connector A.</p><p>The automatic transmission solenoid unit L050 receives a supply at pin 10 of connector A through the line protected by fuse F23 and via relay R20, both located in the engine compartment junction unit B001.</p><p>The automatic transmission gear selector control unit 053 warns the automatic transmission control unit M055 (pins 3 and 4 of connector A) that a gear is engaged via the C-CAN from pins 5 and 7.</p><p>The instrument panel E050, supplied by the line controlled by the ignition (INT) protected by fuse F37 of the junction unit under the dashboard B002 (pin 1 of connector A) and the line from the battery (pin 2 of connector A) protected by fuse F53 inside junction unit B002, receives the signal for the gear engaged, via the B-CAN (pins 3 and 4 of connector A) displaying it on the appropriate milometer.</p><p>The speedometer signal, supplied by the braking system control unit M051 (pin 16), reaches pin 7 of connector A of the Body Computer M001, which transmits it, via the B-CAN, to the other control units involved in the function.</p><p>The automatic transmission control unit M055 receives the automatic transmission fluid overheating signal from the solenoid valve unit L050 (pins 3 and 6 of connector C) at pins 21 and 22 of connector B and transmits it, via the C-CAN, from pins 12 and 13 of connector A in the same way as it transmits a possible fault for the automatic transmission to be shown as a message on the instrument panel E050 display.</p><p>The (normally open) brake pedal switch I030 provides the automatic transmission control unit (pin 10 of connector A) with the status of its contacts from pin 2.</p><p>The automatic transmission control unit manages its own diagnostic signal from pin 11 of connector A.</p><p><a href="841006205.html">See E8010 DIAGNOSTIC MULTIPLE CONNECTOR</a></p><p>The automatic transmission control unit M055 activates the Ice function automaticlaly, in other words it allows safer driving when there is ice on the surface of the road; this function is activated through the signal that arrives via the B-CAN from the outside temperature sensor. The Body Computer M001 transmits the driver&#x27;s front door open signal, to the automatic transmission control unit M055, via the C-CAN, for the acoustic warning and the management of reverse gear and the automatic transmission safety position to the instrument panel E050.</p></section>
+<h2>Topics linked from this page (1)</h2><ul><li><a href="841006205.html">E8010 DIAGNOSTIC MULTIPLE CONNECTOR</a> <span class="meta">chapter (index of subtopics) · engines: 3.0 V6, 3.2 V6; all production periods; only with equipment: Automatic Transmission</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-lThss/en/">https://sloeber94.github.io/elrnDB-lThss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

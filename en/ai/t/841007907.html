@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E5061 ADAPTIVE CRUISE CONTROL OPERATIONAL DESCRIPTION · Lancia THESIS</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.4 JTD 10V; all production periods. Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E50 ENGINE CONTROL AND MANAGEMENT SYSTEMS &gt; E5061 ADAPTIVE CRUISE CONTROL &gt; E5061 ADAPTIVE CRUISE CONTROL OPERATIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Lancia THESIS workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2003.html">Electrical equipment</a> › <a href="841003069.html">ELECTRICAL FUNCTIONS</a> › <a href="841005022.html">E50 ENGINE CONTROL AND MANAGEMENT SYSTEMS</a> › <a href="841007889.html">E5061 ADAPTIVE CRUISE CONTROL</a> › <span>E5061 ADAPTIVE CRUISE CONTROL OPERATIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E5061</span> ADAPTIVE CRUISE CONTROL OPERATIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E50 ENGINE CONTROL AND MANAGEMENT SYSTEMS &gt; E5061 ADAPTIVE CRUISE CONTROL &gt; E5061 ADAPTIVE CRUISE CONTROL OPERATIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.4 JTD 10V; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-lThss/en/#/841007907">https://sloeber94.github.io/elrnDB-lThss/en/#/841007907</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.4 JTD 10V; all production periods</p><h2>Operational Description</h2><p>The adaptive cruise control system control unit M087 receives a supply controlled by the ignition (INT) at pin 12 via the line protected by fuse F35 of the junction unit under the dashboard B002.</p><p>Pins 2 and 4 are dedicated to communication on the CAN (C-CAN H and C-CAN L). Pin 9 receives the setting of the distance that the driver has decided to keep from the vehicle in front (three position HEADWAY control) using the Cruise Control System control H007 (pin 3).</p><p>Cruise Control H007 is ignition-operated ( INT ) at pin 2 , via a line protected by fuse F35 of underfacia junction unit B002.</p><p>The control H007 is also connected to the engine management control unit (connector A):</p><ul><li>at pin 53 with the ON / OFF signal;</li><li>at pin 55 with the RCL (RECALL) signal;</li><li>at pin 57 with the SET + signal;</li><li>at pin 56 with the SET - signal;</li></ul><p>Pins 54 and 27 of connector A of the engine management control unit M010 receive the brake pedal pressed signals coming from the N.C. and N.A. contacts of the brake lights switch I030, respectively, with the supply controlled by the ignition (INT) from the lines protected by fuses F35 and F37 of the junction unit under the dashboard B002.</p><p>Pin 61 of connector A of engine control unit M010 receives a signal from the contact of clutch switch I031 , also for the purposes of programmed function deactivation.</p><p>Pins 76, 77, 78, 79, 80 and 81 of connector A are connected to the accelerator pedal K055 in order to receive the function temporarily deactivated signal</p><p><a href="841005142.html">See E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT</a></p><p>The engine management control unit M010 is connected, via the C-CAN line, from pins 10 and 9, connector A to the Body Computer M001, pins 32 and 33, connector B.</p><p>The Body Computer M001, in turn, transmits the B-CAN signal to the instrument panel E050 which makes provision for a possible fault signal by means of a message on the display and information from the system.</p><p>The management of the braking if a vehicle or an obstacle is detected is entrusted to the braking system check control unit (brake assistance) M052.</p><p>It is supplied directly from the battery at pin 3 connector A via the line protected by fuse F58 of the luggage compartment junction unit B045. The control unit also receives a supply controlled by the ignition (INT) at pin 4 connector A via the line protected by fuse F42 of the junction unit under the dashboard B002.</p><p>Pins 13 and 14 connector A are dedicated to CAN communication through which the control unit receives the commands for the adaptive cruise control function for the management of the braking system. In particular, pin 13 C-CAN H and pin 14 C-CAN L.</p><p>Control unit connector B is connected to separate wiring which is designed to manage the braking. The following are connected to it:</p><ul><li>K140 : brake servo push rod position sensor (pins 1, 2 and 3)</li><li>I090 : brake servo release switch (pins 9, 10 and 11)</li><li>L001 : brake servo push rod actuator solenoid (pins 13 and 14)</li></ul></section>
+<h2>Topics linked from this page (1)</h2><ul><li><a href="841005142.html">E5050 DIESEL ENGINES ELECTRONIC MANAGEMENT</a> <span class="meta">chapter (index of subtopics) · engines: 2.4 JTD 10V; all production periods</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-lThss/en/">https://sloeber94.github.io/elrnDB-lThss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

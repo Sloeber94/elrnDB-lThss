@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E3020 WINDSCREEN WASH/WIPE DESCRIPTION · Lancia THESIS</title>
+<meta name="description" content="topic. all engines; all production periods. Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E30 ELECTRICALLY ACTIVATED DEVICES &gt; E3020 WINDSCREEN WASH/WIPE &gt; E3020 WINDSCREEN WASH/WIPE DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Lancia THESIS workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2003.html">Electrical equipment</a> › <a href="841003069.html">ELECTRICAL FUNCTIONS</a> › <a href="841003825.html">E30 ELECTRICALLY ACTIVATED DEVICES</a> › <a href="841003879.html">E3020 WINDSCREEN WASH/WIPE</a> › <span>E3020 WINDSCREEN WASH/WIPE DESCRIPTION</span></nav>
+<h1><span class="code">E3020</span> WINDSCREEN WASH/WIPE DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E30 ELECTRICALLY ACTIVATED DEVICES &gt; E3020 WINDSCREEN WASH/WIPE &gt; E3020 WINDSCREEN WASH/WIPE DESCRIPTION</dd>
+<dt>Kind</dt><dd>topic</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-lThss/en/#/841003888">https://sloeber94.github.io/elrnDB-lThss/en/#/841003888</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>Description</h2><p>The windscreen wash/wipe system is activated by the steering column switch unit located on the right of the steering wheel, with the following functions: there are five possible positions for the lever to which the following functions correspond:</p><ul><li>windscreen wiper off (stationary);</li><li>intermittent/automatic operation (4 positions or 4 rain sensor settings);</li><li>continuous slow operation (first speed);</li><li>continuous slow operation (first speed);</li><li>anti-panic temporary fast operation (unstable position).</li></ul><p>In the intermittent/automatic operation position there are four different functions for the steering column switch unit managed by the windscreen wiper control unit.</p><p>Intermittent operation is also a function of the rain and dusk sensor (interfaced on the roof control unit) which, sends the windscreen wiper control unit a signal when the steering column switch unit is placed in the intermittent position.</p><p>The frequency of the windscreen wiper strokes is automatically adjusted depending on the amount of water on the windscreen detected by the sensor.</p><p>The Body Computer control unit acquires all the information both concerning the speed of the windscreen wiper strokes per minute and any possible failure of the rain sensor. In the latter case, or if the Body Computer does not receive information from the rain sensor via the A-BUS serial line (3 second timeout), the Body Computer sends a signal, via the CAN, to the instrument panel which displays the fault on the matrix display; as a result, the windscreen wiper control unit operates manually depending on the position of the steering column switch unit ring nut/lever. On receiving an insufficient windscreen washer fluid level signal, via the CAN, the instrument panel also displays the appropriate symbols and message on the display.</p><p>The transmission of messages between the sensor and the windscreen wiper control unit takes place via the A-BUS serial line.</p><p>The activation of the rain sensor involves a windscreen wiper arm stroke as feedback to confirm that it has been switched on.</p><p>There are 4 possible settings for the sensor which is adjusted using the ring nut on the steering column switch unit lever.</p><p>The &quot;intelligent&quot; windscreen washer logic is as follows:</p><ul><li>on a command to wash the windscreen, the windscreen wiper control unit activates the windscreen washer pump;</li><li>after the pump has been activated for 0.5 seconds, the windscreen wiper is activated at the first speed;</li><li>the pump and the windscreen wiper remain activated for the entire period that the command to wash the windscreen exists;</li><li>when the control is released, the windscreen wiper control unit no longer activates the pump, whilst it still operates the windscreen wiper for a further three strokes;</li><li>there is an additional stroke after six seconds at the first speed (if the windscreen wiper is not already activated).</li></ul><p>The device is temporarily excluded during starting (INT/A).</p><p>The windscreen wiper and the windscreen washer can only be activated with the ignition switched ON (INT), with the functions being disabled with the ignition switched OFF.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-lThss/en/">https://sloeber94.github.io/elrnDB-lThss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

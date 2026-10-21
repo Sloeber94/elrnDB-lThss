@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E1050 CAN CONNECTION LINES OPERATIONAL DESCRIPTION · Lancia THESIS</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.4 JTD 10V, 2.4 JTD 20V; all production periods. Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E10 POWER SUPPLY AND EARTHS &gt; E1050 CAN CONNECTION LINES &gt; E1050 CAN CONNECTION LINES OPERATIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Lancia THESIS workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2003.html">Electrical equipment</a> › <a href="841003069.html">ELECTRICAL FUNCTIONS</a> › <a href="841003078.html">E10 POWER SUPPLY AND EARTHS</a> › <a href="841006385.html">E1050 CAN CONNECTION LINES</a> › <span>E1050 CAN CONNECTION LINES OPERATIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E1050</span> CAN CONNECTION LINES OPERATIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E10 POWER SUPPLY AND EARTHS &gt; E1050 CAN CONNECTION LINES &gt; E1050 CAN CONNECTION LINES OPERATIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.4 JTD 10V, 2.4 JTD 20V; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-lThss/en/#/841006403">https://sloeber94.github.io/elrnDB-lThss/en/#/841006403</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.4 JTD 10V, 2.4 JTD 20V; all production periods</p><h2>Operational Description</h2><p>The Body Computer M001 receives a supply controlled by the ignition (INT) at pin 11 of connector H interfaced with the junction unit B002: this signal is designed to wake up the network and is also used to disable several functions (rearscreen demisting, electric windows, sun roof, etc.) during starting.</p><p>The following nodes are connected to the Body Computer M001 via the C-CAN:</p><ul><li>the engine management control unit M010;</li><li>the braking system control unit M051 (which is not connected directly, but via M010);</li><li>the braking system control unit M052 (which is not connected directly, but via M051 and M010);</li><li>the electric braking control unit M059 (which is not connected directly, but via K074 and M092);</li><li>the steering geometry control unit M076;</li><li>the adaptive cruise control system control unit M087.</li><li>the slewing control unit (VDC) K074 (which is not connected directly, but via M092);</li><li>the steering angle control unit M092.</li></ul><p>The following nodes are connected to the Body Computer M001 via the B-CAN:</p><ul><li>the roof control unit M062;</li><li>the luggage compartment control unit M063;</li><li>the passive entry control unit M064;</li><li>the info-telematic control unit M065.</li><li>the driver&#x27;s door control unit M066;</li><li>the passenger door control unit M067;</li><li>the climate control system control unit M070;</li><li>the parking sensors control unit M084;</li><li>the steering lock control unit M089;</li><li>the steering wheel node control unit M093;</li><li>the instrument panel control unit E050.</li></ul><p>The TV tuner M100 is connected to the info-telematic control unit M065 for the management of the TV function controls.</p><p>The Body Computer M001 carries out the diagnosis of the B-CAN A and B-CAN lines at pins 14 and 6 of connector I, respectively.</p><p>If there are network faults involving the control units which have an impact on several functions, the instrument panel E050 should light up the corresponding warning lights and display a CAN failure message. If there are faults involving a control unit dedicated to one single function then a specific message is displayed.</p><p>Pins 8 and 9 of connector E of the body computer are earthed.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-lThss/en/">https://sloeber94.github.io/elrnDB-lThss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

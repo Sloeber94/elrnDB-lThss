@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E2510 COURTESY LIGHTS DESCRIPTION · Lancia THESIS</title>
+<meta name="description" content="topic. all engines; all production periods; only with equipment: Passive Entry. Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E25 INTERIOR LIGHTING &gt; E2510 COURTESY LIGHTS &gt; E2510 COURTESY LIGHTS DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Lancia THESIS workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2003.html">Electrical equipment</a> › <a href="841003069.html">ELECTRICAL FUNCTIONS</a> › <a href="841003636.html">E25 INTERIOR LIGHTING</a> › <a href="841003645.html">E2510 COURTESY LIGHTS</a> › <span>E2510 COURTESY LIGHTS DESCRIPTION</span></nav>
+<h1><span class="code">E2510</span> COURTESY LIGHTS DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E25 INTERIOR LIGHTING &gt; E2510 COURTESY LIGHTS &gt; E2510 COURTESY LIGHTS DESCRIPTION</dd>
+<dt>Kind</dt><dd>topic</dd>
+<dt>Applies to</dt><dd>all engines; all production periods; only with equipment: Passive Entry</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-lThss/en/#/841003654">https://sloeber94.github.io/elrnDB-lThss/en/#/841003654</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods; only with equipment: Passive Entry</p><h2>Description</h2><p>The logics for switching the (front and rear) courtesy lights on/off are centralized in the Body Computer.</p><p>If some of the courtesy lights are not operated directly by the Body Computer but by other nodes, the command to switch on/off is sent via the CAN from the Body Computer to the latter via a signal composed of two bit in order to differentiate between switching on and switching off with or without a dimmer.</p><p>The dimmer time of 2 seconds is always aded to the times described, for both switching on and switching off.</p><p>all Passive Entry versions</p><p>The (unstable) button the front courtesy light acts for both the front courtesy light and the rear courtesy light: in effect, if the courtesy lights are off, they are switched on when the button is pressed; if the courtesy lights are on, they are switched off when the button is pressed.</p><p>The left/right front map reading lights, like the rear ones, are activated independently of the opening of the doors, via a specific command; the functions are completely local.</p><p>The timed activatation of the front and rear courtesy lights is basically determined by four different operating logics:</p><ul><li>the front/rear door states (open/closed);</li><li>in a key-off situation (OFF);</li><li>according to the locking/unlocking of the doors via the Passive Entry control unit;</li><li>the activation of the inertia switch.</li></ul><p>For the first functional logic, opening any door (front or rear) causes the front and rear courtesy lights to come on, both for a timed period (managed by the Body Computer) of 3 minutes.</p><p>If during the period of 3 minutes (or with any door open) another door is opened, the current timed period is rest and starts again for another 3 minutes.</p><p>At the end of the timed period both courtesy lights should go off.</p><p>If, during the timed period of 3 minutes, all the doors are closed again, the timing of 3 minutes is interrupted and a second timed period of 20 seconds is activated which is interrupted if the ignition key is turned to the key-on position (INT).</p><p>In all the cases described, the courtesy lights should come on and go out simultaneously and with a dimmer effect.</p><p>In the second logic, when the key is extracted from the ignition (key-off) a timed period of 20 seconds is activated leading to a dimmed switching off. If the (unstable) button in the front courtesy light is pressed in the key-off (OFF) condition, a timed period of 15 minutes is activated.</p><p>The front and rear courtesy lights respectively are activated in the door locking/unlocking function via the Passive Entry control unit; in the unlocking stage for 20 seconds; in the locking stage, on the other hand, for 1 second. In both cases the courtesy lights go out gradually.</p><p>Lastly, if the inertia switch is activated the front and rear courtesy lights come on for 30 minutes. If the inertia switch is reset, the courtesy lights should go off.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-lThss/en/">https://sloeber94.github.io/elrnDB-lThss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

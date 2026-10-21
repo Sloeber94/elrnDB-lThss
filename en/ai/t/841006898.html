@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E3050 FRONT ELECTRIC WINDOWS OPERATIONAL DESCRIPTION · Lancia THESIS</title>
+<meta name="description" content="functional description (how the circuit works). all engines; all production periods; only with equipment: Passive Entry. Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E30 ELECTRICALLY ACTIVATED DEVICES &gt; E3050 ELECTRIC FRONT WINDOWS &gt; E3050 FRONT ELECTRIC WINDOWS OPERATIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Lancia THESIS workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2003.html">Electrical equipment</a> › <a href="841003069.html">ELECTRICAL FUNCTIONS</a> › <a href="841003825.html">E30 ELECTRICALLY ACTIVATED DEVICES</a> › <a href="841006880.html">E3050 ELECTRIC FRONT WINDOWS</a> › <span>E3050 FRONT ELECTRIC WINDOWS OPERATIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E3050</span> FRONT ELECTRIC WINDOWS OPERATIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E30 ELECTRICALLY ACTIVATED DEVICES &gt; E3050 ELECTRIC FRONT WINDOWS &gt; E3050 FRONT ELECTRIC WINDOWS OPERATIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; all production periods; only with equipment: Passive Entry</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-lThss/en/#/841006898">https://sloeber94.github.io/elrnDB-lThss/en/#/841006898</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods; only with equipment: Passive Entry</p><h2>Operational Description</h2><p>When excited by Body Computer M001, service relay R13, located in underfacia junction unit B002, supplies the front window controls on the two driver side door and passenger side door control units (M066 and M067) by means of two lines protected by fuses F47 and F48 respectively.</p><p>Front driver side door control unit M066 communicates via the B-CAN network with instrument panel E050 and with other control units involved in the function via pins 31 and 32 of connector C.</p><p>Driver side window motor N060 (like passenger side window motor N061) is connected to the relevant door control unit at pins 8 and 9 of connector B.</p><p>The antipinch sensor on the front driver side door K022 (K023 for the passenger side) is connected to the door control unit at pins 7 of connector A and 39 of connector C. Sensor faults are sent via the B-CAN network to the instrument panel (pins 3 and 4 of conector A), which shows a message on the display.</p><p>Climate control unit M070 (Wiring diagram E6020 AIR CONDITIONER) communicates the presence of exhaust gas to Body Computer M001 (pins 24 and 25 of connector D) via the B-CAN network. At this point, door control units M066 and M067 download the commands and activate window closure while internal air recirculation is activated.</p><p><a href="841005331.html">See E6020 AIR CONDITIONING</a></p><p>A signal from rain and dusk sensor K125 leaves via the A-BUS line from pin 4 of connector B of ceiling control unit M062. The signal is processed by the Body Computer M001 and sent (pin 7 of connector F) to the door control units.</p><p>The central closure signal sent via Passive Entry control unit M064, is received via aerial RF P015 and sent to pins 1 and 22 of the control unit. This informs the Body Computer (pins 5 and 7 of connector H) and front door control units M066 and M067 (pins 31 and 32 of connector C) from pins 9 and 30 (via the B-CAN network).</p><p>Body Computer M001 receives an INT/A (key-on) signal from ignition switch H001 at pin 27 of connector D via fuse F31 of underfacia control unit B002.</p></section>
+<h2>Topics linked from this page (1)</h2><ul><li><a href="841005331.html">E6020 AIR CONDITIONING</a> <span class="meta">chapter (index of subtopics) · engines: 2.0 TB, 2.4  20V, 3.0 V6, 3.2 V6; all production periods</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-lThss/en/">https://sloeber94.github.io/elrnDB-lThss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7023 ESP OPERATIONAL DESCRIPTION · Lancia THESIS</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.4 JTD 10V; all production periods. Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7023 ESP &gt; E7023 ESP OPERATIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Lancia THESIS workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2003.html">Electrical equipment</a> › <a href="841003069.html">ELECTRICAL FUNCTIONS</a> › <a href="841005397.html">E70 VEHICLE ELECTRONIC SYSTEMS</a> › <a href="841008589.html">E7023 ESP</a> › <span>E7023 ESP OPERATIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E7023</span> ESP OPERATIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7023 ESP &gt; E7023 ESP OPERATIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.4 JTD 10V; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-lThss/en/#/841008607">https://sloeber94.github.io/elrnDB-lThss/en/#/841008607</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.4 JTD 10V; all production periods</p><h2>Operational Description</h2><p>The braking system control unit M051 is supplied directly by the battery at pins 12 and 25 via the lines protected by fuses F02 and F04 of the engine compartment junction unit B001.</p><p>The supply controlled by the ignition (INT) reaches pin 23, by means of the line protected by fuse F42 of the junction unit under the dashboard B002.</p><p>The control unit is earthed at pins 11 and 24.</p><p>The four wheel sensors K070, K071, K075 and K076 send wheel speed signals to pins 19, 20, 7, 8, 21, 22, 9 and 10, respectively of the braking system control unit M051.</p><p>The speedometer signal signal destined for the Body Computer M001 (pin 7 connector A) is sent from pin 16; this signal is replicated at the CAN from pins 1 and 2 of M051.</p><p>The steering angle control unit M092 is supplied directly by the battery at pin 1 from the line protected by fuse F058 of the luggage compartment junction unit B045. The supply controlled by the ignition (INT) reaches pin 5, by means of the line protected by fuse F042 of the junction unit under the dashboard B002.</p><p>The control unit is connected to the C-CAN line by means of pins 7 and 3 (destined for the Body Computer M001 pins 36 and 37 connector B) and pins 4 and 8 (directed to communication with the slewing control unit M091, pins 2 and 3).</p><p>The slewing control unit M091 receives a supply exclusively controlled by the ignition (INT) at pin 1, also by means of the line protected by fuse F042 of the junction unit under the dashboard B002.</p><p>The control is interfaced with the C-CAN line via pins 2 and 3 through which information is exchanged with the control units dedicated to the VDC function.</p><p>The braking system control unit M051 is connected (from pins 1 and 2), via the C-CAN line, to the engine management control unit M010 (pins 9 and 10) for the possible management of the engine output power direct to the wheels.</p><p>Pins 59 and 54 of connector A of the engine management control unit M010 receive the brake pedal pressed signals coming from the N.C. and N.A. contacts of the brake lights switch I030, respectively, with the supply controlled by the ignition (INT) from the lines protected by fuses F35 and F37 of the junction unit under the dashboard B002.</p><p>The engine management control unit M010 distributes the brake pedal pressed signal to the other control units installed on the vehicle via the C-CAN line, pins 28 and 29 connector A.</p><p>The engine management control unit is connected, in turn, from pins 28 and 29 connector A, to the Body Computer M001 (pins 32 and 33 connector B) in order to operate the warning light for the function and the failure message shown on the display, inside the instrument panel E050, by means of the CAN.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-lThss/en/">https://sloeber94.github.io/elrnDB-lThss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

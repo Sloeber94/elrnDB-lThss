@@ -1,0 +1,28 @@
+# Lancia THESIS workshop manual (text version)
+
+> Official eLearn workshop manual for the Lancia THESIS, English. Engines: 2.0 TB, 2.4  20V, 3.0 V6, 3.2 V6, 2.4 JTD 10V, 2.4 JTD 20V. Production periods: T.T.. Each topic is a separate HTML page with its path, applicability, and links to and from related topics.
+
+Start with the guide, then follow links. Use the lookups to jump from a component, fuse or operation code to its pages.
+
+## Start here
+- [Guide: how the manual is organised, code systems, wire colours](https://sloeber94.github.io/elrnDB-lThss/en/ai/guide.html)
+- [Component index: component -> pinouts, replacement procedures, references](https://sloeber94.github.io/elrnDB-lThss/en/ai/lookup/components.html)
+- [Fuse and relay index: rating, junction unit and every circuit that names it](https://sloeber94.github.io/elrnDB-lThss/en/ai/lookup/fuses.html)
+- [Operation index: operation or test code -> topic](https://sloeber94.github.io/elrnDB-lThss/en/ai/lookup/operations.html)
+- [All sections](https://sloeber94.github.io/elrnDB-lThss/en/ai/index.html)
+
+## Sections
+- [Descriptions](https://sloeber94.github.io/elrnDB-lThss/en/ai/t/71842.html): system description
+- [Technical Data](https://sloeber94.github.io/elrnDB-lThss/en/ai/t/71846.html): technical data / specifications
+- [Fault diagnosis](https://sloeber94.github.io/elrnDB-lThss/en/ai/t/71844.html): fault diagnosis table (symptom -> numbered test steps)
+- [Test](https://sloeber94.github.io/elrnDB-lThss/en/ai/t/71843.html): test / check procedure
+- [Procedures](https://sloeber94.github.io/elrnDB-lThss/en/ai/t/71841.html): repair procedure (removal / refitting; the operation number is the code)
+- [Electrical equipment](https://sloeber94.github.io/elrnDB-lThss/en/ai/t/2003.html): 
+
+## Background notes
+- [data-model.md](https://sloeber94.github.io/elrnDB-lThss/en/ai/notes/data-model.md): wire colour codes, connector-body colours, how pinouts describe every wire, what only the diagrams add
+- [rendering-rules.md](https://sloeber94.github.io/elrnDB-lThss/en/ai/notes/rendering-rules.md): how the manual is structured: Removing/Refitting parts, Op. calls between procedures, variants
+
+## Optional
+- [Interactive site](https://sloeber94.github.io/elrnDB-lThss/en/)
+- [All models](https://sloeber94.github.io/elrnDB/llms.txt)

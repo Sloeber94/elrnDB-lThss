@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E2021 BRAKE LIGHTS OPERATIONAL DESCRIPTION · Lancia THESIS</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.4  20V, 3.0 V6, 3.2 V6, 2.4 JTD 20V; all production periods; only with equipment: Automatic Transmission. Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E20 INTERIOR LIGHTING &gt; E2021 BRAKE LIGHTS &gt; E2021 BRAKE LIGHTS OPERATIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Lancia THESIS workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2003.html">Electrical equipment</a> › <a href="841003069.html">ELECTRICAL FUNCTIONS</a> › <a href="841003222.html">E20 INTERIOR LIGHTING</a> › <a href="841006475.html">E2021 BRAKE LIGHTS</a> › <span>E2021 BRAKE LIGHTS OPERATIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E2021</span> BRAKE LIGHTS OPERATIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E20 INTERIOR LIGHTING &gt; E2021 BRAKE LIGHTS &gt; E2021 BRAKE LIGHTS OPERATIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.4  20V, 3.0 V6, 3.2 V6, 2.4 JTD 20V; all production periods; only with equipment: Automatic Transmission</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-lThss/en/#/841006493">https://sloeber94.github.io/elrnDB-lThss/en/#/841006493</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.4  20V, 3.0 V6, 3.2 V6, 2.4 JTD 20V; all production periods; only with equipment: Automatic Transmission</p><h2>Operational Description</h2><p>The switch I030 receives a supply controlled by the ignition (INT) from fuses F37 and F35 of the junction unit under the dashboard B002.</p><p>N.C. and N.A. signals are sent from pins 1 and 2 of the brake pedal switch I030, respectively, to pins 80 and 17 of the engine management control unit M010 connector A which notifies the body computer M001 of the state of the contacts via the CAN.</p><p>The key-on signal (INT) for the ignition switch H001 reaches the junction unit under the dashboard B002, at pin 11 of connector H and from there moves on to the Body Computer M001 pins 9 and 13 (the latter is protected by fuse F37) of connector H.</p><p>The Body Computer M001 controls the supply of the brake lights located in the light clusters F030 (left) and F031 (right) from pins 32 and 22, respectively of connector G. The latter also receive a direct supply from the luggage compartment junction unit B045 because they are equipped with a control unit which controls the voltage/current for working at operating temperature.</p><p>The control unit inside left tail-light F031 communicates with the unit inside right tail-light F030 at pins 7 and 8 respectively and sends any fault signal to the Body Computer at pin 6 of connector A.</p><p>The switch I030 directly controls the centre rear light cluster F040 via the junction unit under the dashboard B002, pin 5 connector D.</p><p>The Body Computer M001 is connected, via the B-CAN, to the instrument panel E050 to manage the information shown on the display if there is a failure detected in the circuit.</p><p>The instrument panel receives a supply controlled by the ignition and a direct supply. These lines are protected by fuses F37 and F53, respectively of the junction unit under the dashboard B002.</p><p>Pins 8 and 9 of connector E of the body computer are earthed.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-lThss/en/">https://sloeber94.github.io/elrnDB-lThss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

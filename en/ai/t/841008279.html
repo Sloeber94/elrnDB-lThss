@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7010 LANCIA CODE DESCRIPTION · Lancia THESIS</title>
+<meta name="description" content="topic. engines: 2.4 JTD 20V; all production periods. Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7010 CODE &gt; E7010 LANCIA CODE DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Lancia THESIS workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2003.html">Electrical equipment</a> › <a href="841003069.html">ELECTRICAL FUNCTIONS</a> › <a href="841005397.html">E70 VEHICLE ELECTRONIC SYSTEMS</a> › <a href="841008270.html">E7010 CODE</a> › <span>E7010 LANCIA CODE DESCRIPTION</span></nav>
+<h1><span class="code">E7010</span> LANCIA CODE DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7010 CODE &gt; E7010 LANCIA CODE DESCRIPTION</dd>
+<dt>Kind</dt><dd>topic</dd>
+<dt>Applies to</dt><dd>engines: 2.4 JTD 20V; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-lThss/en/#/841008279">https://sloeber94.github.io/elrnDB-lThss/en/#/841008279</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.4 JTD 20V; all production periods</p><h2>Description</h2><p>To increase protection against theft attempts, an engine immobilizer system known as the LANCIA CODE is used.</p><p>The keys are equipped with an electronic transponder which, during starting, transmits a coded signal to the Body Computer which, if it recognizes the transponder, sends the code to the other functions involved in the protection of the vehicle: alarm ( &lt; R1 &gt; ) and immobiliser.</p><p><a href="841005451.html">See E7015 ALARM</a></p><p>The Body Computer thus acts as an engine ignition management control unit.</p><p>After Key-on (+15), the engine control unit sends a code request to the Body Computer that, if the response is positive, enables engine start up and turns off the warning light inside the control panel that stayed on throughout the period described.</p><p>If the information protocol between the two control units does not have a positive result, the instrument panel should be notified of the negative outcome and it will activate the flashing of the special warning light and show the appropriate message on the display.</p><p>The communication between the Body Computer and the engine management control unit takes place by default on the CAN; if the latter is faulty, then the engine management control unit recovery strategy requests codes from the Body Computer (and responds) via the W serial line; if there are also problems with the W line, at the end of the retransmission attempts, the engine management control unit moves to the recovery stage with the accelerator pedal or the diagnostic equipment. To activate this recovery procedure (to be repeated at each successive key-on) it is necessary to be in possession of the CODE CARD or to know the 5 digit code to be entered (using the diagnostic equipment) or to be introduced using the accelerator pedal. If the code is correct, the engine management control unit will enable the starting of the engine.</p></section>
+<h2>Topics linked from this page (1)</h2><ul><li><a href="841005451.html">E7015 ALARM</a> <span class="meta">chapter (index of subtopics) · all engines; all production periods</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-lThss/en/">https://sloeber94.github.io/elrnDB-lThss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

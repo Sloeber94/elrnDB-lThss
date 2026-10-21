@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E3020 WINDSCREEN WASH/WIPE OPERATIONAL DESCRIPTION · Lancia THESIS</title>
+<meta name="description" content="functional description (how the circuit works). all engines; all production periods. Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E30 ELECTRICALLY ACTIVATED DEVICES &gt; E3020 WINDSCREEN WASH/WIPE &gt; E3020 WINDSCREEN WASH/WIPE OPERATIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Lancia THESIS workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2003.html">Electrical equipment</a> › <a href="841003069.html">ELECTRICAL FUNCTIONS</a> › <a href="841003825.html">E30 ELECTRICALLY ACTIVATED DEVICES</a> › <a href="841003879.html">E3020 WINDSCREEN WASH/WIPE</a> › <span>E3020 WINDSCREEN WASH/WIPE OPERATIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E3020</span> WINDSCREEN WASH/WIPE OPERATIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E30 ELECTRICALLY ACTIVATED DEVICES &gt; E3020 WINDSCREEN WASH/WIPE &gt; E3020 WINDSCREEN WASH/WIPE OPERATIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-lThss/en/#/841003897">https://sloeber94.github.io/elrnDB-lThss/en/#/841003897</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>Operational Description</h2><p>The electronic device inside the steering column switch unit H005 is supplied at pin 2 of connector A by the line contrlled by the ignition (INT) protected by fuse F51 of the junction unit under the dashboard B002.</p><p>According to the function selected (windscreen wiping and/or washing), the steering column switch unit H005 (connector A) sends the following signals to the windscreen wiper control unit M079 (electro-mechanical and electronic control unit integrated in the windscreen wiper motor):</p><ul><li>from pin 9 for continuous slow operation (first speed) to pin 8;</li><li>from pin 8 for continuous slow operation (first speed) to pin 7;</li><li>from pin 11 for intermittent operation, determined by the steering column switch unit or the rain sensor, to pin 5;</li><li>from pin 12 for the activation of the windscreen washer pump to pin 6.</li></ul><p>The windscreen wiper control unit M079 is supplied at pin 1 directly by the battery via the relay R12 and fuse F43, both housed in the junction unit under the dashboard B002. The windscreen washer pump, interfaced at the front/headlamp washer coupling D098, is supplied from pin 3 of control unit M079 at pin 4.</p><p>The signal for enabling the intermitten function via the rain and dusk sensor K125, is sent via the A-BUS line from pin 10 of the windscreen wiper control unit M079.</p><p>If the windscreen washer fluid level inside the reservoir is insufficient, then the info-telematic control unit M065 receives a negative signal, at pin 21 of connector A, from the switch interfaced with the front/headlamp washer coupling D098 (pin 2); this signal is sent via the B-CAN (pins 1 and 3 of connector A) to the instrument panel E050 (pins 3 and 4 of connector A) which displays the message and the symbol.</p><p>Body Computer M001 receives an INT/A (key-on) signal from ignition switch H001 at pin 27 of connector D via fuse F31 of underfacia control unit B002.</p><p>The Body Computer M001 also acquires information concerning the on/off status of the windscreen wiper and a possible failure of the rain sensor through the same line.</p><p>These signals are transmitted via the B-CAN for other functions; the instrument panel E050 shows the failure of the sensor on the display thanks to the signals acquired at pins 3 and 4 of connector A.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-lThss/en/">https://sloeber94.github.io/elrnDB-lThss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

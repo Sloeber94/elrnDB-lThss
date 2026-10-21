@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E3051 ELECTRIC REAR WINDOWS OPERATIONAL DESCRIPTION · Lancia THESIS</title>
+<meta name="description" content="functional description (how the circuit works). all engines; all production periods. Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E30 ELECTRICALLY ACTIVATED DEVICES &gt; E3051 ELECTRIC REAR WINDOWS &gt; E3051 ELECTRIC REAR WINDOWS OPERATIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Lancia THESIS workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2003.html">Electrical equipment</a> › <a href="841003069.html">ELECTRICAL FUNCTIONS</a> › <a href="841003825.html">E30 ELECTRICALLY ACTIVATED DEVICES</a> › <a href="841004239.html">E3051 ELECTRIC REAR WINDOWS</a> › <span>E3051 ELECTRIC REAR WINDOWS OPERATIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E3051</span> ELECTRIC REAR WINDOWS OPERATIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E30 ELECTRICALLY ACTIVATED DEVICES &gt; E3051 ELECTRIC REAR WINDOWS &gt; E3051 ELECTRIC REAR WINDOWS OPERATIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>all engines; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-lThss/en/#/841004257">https://sloeber94.github.io/elrnDB-lThss/en/#/841004257</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: all engines; all production periods</p><h2>Operational Description</h2><p>When excited by Body Computer M001, service relay R13, located in underfacia junction unit B002, supplies the boot compartment control unit M063 (pins 8 and 12 of connector C) by means of two lines protected by fuses F33 and F34 respectively.</p><p>The window controls on left rear door H053 and right rear door H054 send earth signals to the boot compartment control unit, respectively:</p><ul><li>to raise, to pin 7 of connector D and pin 7 of connector E;</li><li>to lower, to pin 16 of connector D and pin 17 of connector E;</li></ul><p>The antipinch sensor on the front driver side door K019 is connected to the boot control unit at pins 3 of connector D and 32 of connector F, while right door sensor K024 is connected to pins 12 of connector E and 34 of connector G. Sensor faults are sent via the B-CAN network to the instrument panel (pins 3 and 4 of conector A), which shows a message on the display.</p><p>Boot control unit M063 communicates via the B-CAN network with instrument panel E050 and the other control units involved in the function via pins 30 and 40 of connector F.</p><p>Front driver door control unit M066 communicates its commands to the window motors and rear window control inhibition via the B-CAN network from pins 31 and 32 of connector C.</p><p>Left rear window motor N065 is connected to the boot control unit at pins 7 and 8 of conector B. Similarly, the right motor N066 is connected to pins 9 and 10 of connector A.</p><p>A signal from rain and dusk sensor K125 leaves via the A-BUS line from pin 4 of connector B of ceiling control unit M062. The signal is processed by the Body Computer M001 and sent (pin 7 of connector F) to the boot control unit M063 (pins 30 and 40 of connector F) via the B-CAN network.</p><p>The central lock/open signal reaches pins 21 and 31 of connector B of the Body Computer from the remote control unit via alarm and door lock aerial P093.</p><p>This signal is sent via the B-CAN network from the Body Computer (pins 5 and 7 of connector H) to front door control units M066 and M067 (pins 31 and 32 of connector C).</p><p>Body Computer M001 receives an INT/A (key-on) signal from ignition switch H001 at pin 27 of connector D via fuse F31 of underfacia control unit B002.</p></section>
+
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-lThss/en/">https://sloeber94.github.io/elrnDB-lThss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>

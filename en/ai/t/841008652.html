@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>E7065 ELECTRIC STEERING LOCK OPERATIONAL DESCRIPTION · Lancia THESIS</title>
+<meta name="description" content="functional description (how the circuit works). engines: 2.4  20V, 2.4 JTD 10V, 2.4 JTD 20V; all production periods. Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7065 ELECTRIC STEERING LOCK &gt; E7065 ELECTRIC STEERING LOCK OPERATIONAL DESCRIPTION">
+<link rel="stylesheet" href="../ai.css">
+</head>
+<body>
+<header><a href="../index.html">Lancia THESIS workshop manual: text version</a> · <a href="../guide.html">guide</a></header>
+<main>
+<nav class="crumbs"><a href="2003.html">Electrical equipment</a> › <a href="841003069.html">ELECTRICAL FUNCTIONS</a> › <a href="841005397.html">E70 VEHICLE ELECTRONIC SYSTEMS</a> › <a href="841008634.html">E7065 ELECTRIC STEERING LOCK</a> › <span>E7065 ELECTRIC STEERING LOCK OPERATIONAL DESCRIPTION</span></nav>
+<h1><span class="code">E7065</span> ELECTRIC STEERING LOCK OPERATIONAL DESCRIPTION</h1>
+<dl class="facts">
+<dt>Path</dt><dd>Electrical equipment &gt; ELECTRICAL FUNCTIONS &gt; E70 VEHICLE ELECTRONIC SYSTEMS &gt; E7065 ELECTRIC STEERING LOCK &gt; E7065 ELECTRIC STEERING LOCK OPERATIONAL DESCRIPTION</dd>
+<dt>Kind</dt><dd>functional description (how the circuit works)</dd>
+<dt>Applies to</dt><dd>engines: 2.4  20V, 2.4 JTD 10V, 2.4 JTD 20V; all production periods</dd>
+<dt>Interactive page</dt><dd><a href="https://sloeber94.github.io/elrnDB-lThss/en/#/841008652">https://sloeber94.github.io/elrnDB-lThss/en/#/841008652</a></dd>
+</dl>
+
+<section class="block"><p class="applies">Applies to: engines: 2.4  20V, 2.4 JTD 10V, 2.4 JTD 20V; all production periods</p><h2>Operational Description</h2><p>Body Computer M001, supplied by ignition-operated line (INT) protected by fuse F37 of underfacia control unit B002 and the direct battery line (+30) protected by fuse F53 of B002, requires the following signals to operate (lock and unlock) the steering lock device:</p><ul><li>at pin 7 of connector A, a speedometer signal from the braking system control unit M051 (pin 16);</li><li>at pin 17 of connector D, a signal from the clutch pedal (N.O.) I031;</li><li>at pins 8 and 16 of connector F, signals from the driver side front door and left rear door status indication switches;</li><li>at pins 25 and 26 of connector G, signals from the passenger side front door and right rear door status indication switches;</li><li>at pins 5 and 7 of connector H, CID recognition signals from passive entry control unit M064 (pins 9 and 30) via the B-CAN network.</li></ul><p>Steering lock control unit M089 receives device locking and unlocking commands at pins 6 and 7 via the B-CAN network. Control unit M089, and passive entry control unit M064 (pin31), is supplied (pin 3) from a battery-operated line protected by fuse F63 of boot compartment junction unit B045.</p><p>After receiving a positive signal from &quot;50&quot; of ignition switch H001 at pin 4 during start-up, steering lock control unit M089 enables - via a negative signal (pin 8), activation of relay R20 inside engine bay junction unit B001 that supplies the starter motor via fuse F23 of B001.</p><p><a href="841005031.html">See E5010 STARTING AND RECHARING</a></p><p>Control unit M089 also receives an earth signal (pin 1) from the clutch pedal switch (N.C.) I031.</p><p>Control panel E050 displays the messages described previously on its matrix display by means of signals sent via the B-CAN network to pins 3 and 4 of connector A.</p></section>
+<h2>Topics linked from this page (1)</h2><ul><li><a href="841005031.html">E5010 STARTING AND RECHARING</a> <span class="meta">chapter (index of subtopics) · engines: 3.0 V6, 3.2 V6; all production periods; only with equipment: Automatic Transmission and Passive Entry</span></li></ul>
+
+</main>
+<footer>Interactive version: <a href="https://sloeber94.github.io/elrnDB-lThss/en/">https://sloeber94.github.io/elrnDB-lThss/en/</a> · <a href="../llms.txt">llms.txt</a></footer>
+</body>
+</html>
